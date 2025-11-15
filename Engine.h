@@ -28,6 +28,7 @@ struct Engine {
     // Returns the record ID (RID) in the heap.
     int insertRecord(const Record &recIn) {
         //TODO
+       
     }
 
     // Deletes a record logically (marks as deleted and updates indexes)
