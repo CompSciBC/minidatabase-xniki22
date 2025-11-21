@@ -2,7 +2,8 @@
 #define ENGINE_H
 
 #include <iostream>   
-#include <vector>     
+#include <vector> 
+#include <algorithm>
 #include "BST.h"      
 #include "Record.h"
 //add header files as needed
