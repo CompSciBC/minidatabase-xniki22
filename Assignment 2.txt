@@ -1,0 +1,10 @@
+Assignment 2
+
+In this assignment, I learnt how to use two BST indexes simultaneously. along with a heap implementation. I also worked with lambda functions in rangeapply to ensure that a function is used for all variables correctly. Helped me understand how variables from the surrounding scope can be accessed and modified inside a lambda.
+I learnt to implement a database engine using vectors and BST, and used soft deletion to delete elements. We used two separate BSTs- one for unique ID and the other for last names.
+
+Another major concept I learned was soft deletion. Instead of physically removing records from the heap vector, each record was marked as deleted, and both BST indexes were updated. Understanding this approach helped me implement functions like removeById() and removeByLastName() without breaking the structure of the indexes.
+
+One challenge that I faced was that I had to include <algorithm>; otherwise, the compiler thinks that I am calling the remove function from <stdhio.h>, which deletes files. 
+
+Overall, this project strengthened my understanding of C++ templates, memory management, and data structure interaction. It also improved my ability to design modular components—such as a heap-based storage system combined with tree-based indexes—to work together as a small, efficient in-memory database engine.
